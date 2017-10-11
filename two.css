@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Lato');
 *{
     padding: 0;
     margin: 0;
@@ -6,18 +7,20 @@
 html{
     font-size: 16px;
     line-height: 1.6;
-    font-family: sans-serif;
+    font-family: Alegreya,"Lucida Bright",Palatino,serif;
 }
 html,body{
-    background-color: #d4d4d4;
+    background-color: #804000;
+}
+h1,h2{
+    font-family: lato,Helvetica,Tahoma,sans-serif;  
 }
 h1{
-    font-family: serif;
+    
     font-size: 3.998rem;
     padding:1rem 2rem;
 }
 h2{
-    font-family: serif;
     font-size: 2.827rem;
     padding:1rem 2rem;
 }
@@ -31,9 +34,9 @@ nav li{
 nav li>a{
     display: block;
     text-decoration: none;
-    border-bottom: 0.2rem solid black;
+    border-bottom: 0.2rem solid #332200;
     padding: 0.2rem 2rem;
-    color: #999;
+    color: #664400;
 }
 nav li>a:hover,
 nav li>a:active{
@@ -50,11 +53,12 @@ main p:last-child{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #e4e4e4;
+    background-color: #e6ccb3;
+    color: #332200;
 }
 header{
     width:100%;
-    border-bottom: 1rem solid black;
+    border-bottom: 1rem solid #332200;
 }
 nav{
     float:left;
@@ -67,10 +71,10 @@ main{
 footer{
     clear:both;
     width: 100%;
-    border-top: 0.5rem solid black;
+    border-top: 0.5rem solid #332200;
 }
 footer p{
     font-size: 1rem;
     padding: 2rem;
-    color: #666;
+    color: #332200;
 }
