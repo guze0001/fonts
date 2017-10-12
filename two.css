@@ -7,13 +7,13 @@
 html{
     font-size: 16px;
     line-height: 1.6;
-    font-family: Alegreya,"Lucida Bright",Palatino,serif;
+    font-family: "Open Sans", lato,Helvetica,Tahoma,sans-serif;  
 }
 html,body{
     background-color: #804000;
 }
 h1,h2{
-    font-family: "Open Sans", lato,Helvetica,Tahoma,sans-serif;  
+    font-family: Alegreya,"Lucida Bright",Palatino,serif;
 }
 h1{
     
